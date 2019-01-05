@@ -29,6 +29,12 @@ task print() {
     }
 }
 
+task print2() {
+    doLast{
+        println "hkhkhkhkhk"
+    }
+}
+
 
 dependencies {
     implementation('org.springframework.boot:spring-boot-starter-actuator')
